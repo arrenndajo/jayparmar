@@ -24,7 +24,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Jay Parmar</div>
+        <div class="logo"><b>JP</b></div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -190,6 +190,13 @@
                                 <p>Intermediate</p>
                             </div>
                         </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Firebase Hosting</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -208,7 +215,7 @@
                     <div class="article-container">
                         <img src="./assets/legal.png" alt="Project 1" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">AI-Jurist</h2>
+                    <h2 class="experience-sub-title project-title">AI-Jurist: Legal Chatbot</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arrenndajo/Final-Year-AI-Jurist-Project'">
                             Github
@@ -354,6 +361,29 @@
     </footer>
 
     <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCngsULJLVxtS5RV2O1s6VzduNlQyH6B8k",
+          authDomain: "jayparmar-76c43.firebaseapp.com",
+          projectId: "jayparmar-76c43",
+          storageBucket: "jayparmar-76c43.appspot.com",
+          messagingSenderId: "928039580194",
+          appId: "1:928039580194:web:f25f39083134a8ad3cd07b",
+          measurementId: "G-FMDFW6Y6T7"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 
 </body>
 

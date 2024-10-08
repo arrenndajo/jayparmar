@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "jayparmar-76c43"
+  },
+  "targets": {
+    "jayparmar-76c43": {
+      "hosting": {
+        "jayparmar": [
+          "jayparmar-76c43"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
